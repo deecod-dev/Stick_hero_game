@@ -1,11 +1,10 @@
-# Stick Hero Game - Group [58]
+# Stick Hero Game
 
 ## Group Members
-1. [Dev Utkarsh Pal] - [2022150]
-2. [Chahat Ahuja] - [2022138]
+ [Dev Utkarsh Pal] - [2022150]
 
 ## Game Summary
-In this project, we have developed a game called "Stick Hero." The game features a character who traverses between platforms by stretching out a stick. The objective is to reach the goal while collecting rewards (cherries) and avoiding falling into the abyss.
+In this project, I developed a game called "Stick Hero." The game features a character who traverses between platforms by stretching out a stick. The objective is to reach the goal while collecting rewards (cherries) and avoiding falling into the abyss.
 
 ## Game Mechanics
 - **Stick Extension:** Players can control the stick-hero to move between platforms by extending a stick.
@@ -42,5 +41,3 @@ Ensure that you have the necessary JavaFX libraries and dependencies configured 
 Note: Modify the paths in the code that reference external assets (images, sounds) to match your file system.
 
 Feel free to reach out if you encounter any issues or have questions about the Stick Hero game. Enjoy playing!
-
-Note: This readme was made by me with the help of a specified format prompt, only because of good looking features of md format, the content is written by me.
