@@ -2,7 +2,6 @@
 
 ## Group Members
 1. [Dev Utkarsh Pal] - [2022150]
-2. [Chahat Ahuja] - [2022138]
 
 ## Game Summary
 In this project, we have developed a game called "Stick Hero." The game features a character who traverses between platforms by stretching out a stick. The objective is to reach the goal while collecting rewards (cherries) and avoiding falling into the abyss.
