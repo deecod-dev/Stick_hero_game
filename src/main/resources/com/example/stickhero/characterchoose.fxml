@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.Characterchoose">
+   <children>
+      <Circle fill="DODGERBLUE" layoutX="120.0" layoutY="182.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="227.0" layoutY="181.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="327.0" layoutY="182.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="79.0" fitWidth="78.0" layoutX="81.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\char.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="78.0" layoutX="188.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\char.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="78.0" layoutX="288.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\char.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="207.0" prefHeight="26.0" prefWidth="88.0" text="Character1">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="207.0" prefHeight="26.0" prefWidth="88.0" text="Character2">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="207.0" prefHeight="26.0" prefWidth="88.0" text="Character3">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="14.0" prefHeight="66.0" prefWidth="250.0" text="Choose Character">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

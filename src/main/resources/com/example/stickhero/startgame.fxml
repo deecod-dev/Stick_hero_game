@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startgamePane" onKeyPressed="#pressed" onKeyReleased="#released" prefHeight="406.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.Startgame">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e4f2400" height="81.0" layoutY="323.0" onMousePressed="#pressed" onMouseReleased="#released" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="39.0" fitWidth="57.0" layoutX="14.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../assets/cherry.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backgroundImg" fitHeight="433.0" fitWidth="615.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bb6.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="cherryLabel" layoutX="65.0" layoutY="41.0" text="0">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="213.0" layoutY="41.0" text="0">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerlabel" layoutX="352.0" layoutY="45.0" prefHeight="39.0" prefWidth="72.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="perfectLabel" layoutX="240.0" layoutY="102.0" prefHeight="47.0" prefWidth="122.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="410.0" layoutX="1.0" onMousePressed="#pressed" onMouseReleased="#released" stroke="TRANSPARENT" strokeType="INSIDE" width="605.0" />
+<!--      <ImageView fx:id="characterImg" fitHeight="55.0" fitWidth="58.0" layoutX="131.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">-->
+<!--         <image>-->
+<!--            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\char.png" />-->
+<!--         </image>-->
+<!--      </ImageView>-->
+<!--            <Line endX="-99.99998474121094" endY="198.69998168945312" layoutX="220.0" layoutY="203.0" startX="-100.0" />-->
+<!--            <Line endX="-99.99998474121094" endY="198.69998168945312" layoutX="300.0" layoutY="203.0" startX="-100.0" />-->
+<!--            <Line endX="-99.99998474121094" endY="198.69998168945312" layoutX="380.0" layoutY="203.0" startX="-100.0" />-->
+<!--            <Line endX="-99.99998474121094" endY="198.69998168945312" layoutX="550.0" layoutY="203.0" startX="-100.0" />-->
+      <ImageView fitHeight="95.0" fitWidth="85.0" layoutX="515.0" layoutY="41.0" onMouseClicked="#pauseGame" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\pause.png" />
+         </image>
+      </ImageView>
+      <!--      <Button layoutX="274.0" layoutY="14.0" mnemonicParsing="false" onMousePressed="#pressed" onMouseReleased="#released" text="Button" />-->
+   </children>
+   <padding>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </padding>
+</AnchorPane>

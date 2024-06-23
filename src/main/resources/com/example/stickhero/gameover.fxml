@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.Gameover">
+   <children>
+      <ImageView fitHeight="434.0" fitWidth="610.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\background2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="177.0" layoutY="14.0" prefHeight="74.0" prefWidth="246.0" text="GAME OVER!">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="75.0" prefHeight="38.0" prefWidth="59.0" text="SCORE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="currentScore" layoutX="292.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="54.399999999999864">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Label layoutX="280.0" layoutY="130.0" prefHeight="38.0" prefWidth="45.0" text="BEST">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="bestScoreLabel" layoutX="292.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="54.399999999999864">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="57.0" fitWidth="62.0" layoutX="200.0" layoutY="218.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\home.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="restartIcon" fitHeight="57.0" fitWidth="59.0" layoutX="319.0" layoutY="218.0" onMouseClicked="#restart" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:C:\Users\Dev Utkarsh\OneDrive\Desktop\idea\stickHero\src\assets\restart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
